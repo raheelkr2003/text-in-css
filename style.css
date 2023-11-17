@@ -1,0 +1,261 @@
+/* PIXEL */
+/* body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva,;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.credits{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+/* font-size */
+/* pixel */
+/* p{
+  font-size: 50px;
+}
+h1{
+    font-size: 16px;
+}
+body{
+    font-size: 10px;
+} */
+/* PERCENTAGE */
+/* h1{
+    font-size: 400%;
+}
+p{
+    font-size: 200%;
+} */
+
+/* p{
+    font-size: xx-large;
+} */
+/* EMS */
+/* p{
+    font-size: 3em;
+}
+h1{
+    font-size: 3em;
+} */
+/* pt type */
+/* p{
+    font-size: 40pt;
+} */
+/* font face */
+/* @font-face{
+    font-family: test;
+    src: url(./assets/SourceCodePro-Italic-VariableFont_wght.ttf);
+}
+h1{
+    font-family: test;
+}
+p{
+    font-family: test;
+} */
+
+/* FONT WEIGHT */
+/* p{
+    font-weight: bolder;
+}
+h1{
+    font-weight: 500;
+} */
+
+/* FONT STYLE */
+/* p{
+    font-style:italic;
+}
+h1{
+    font-style: oblique;
+}
+#one{
+    font-style: italic;
+}
+#two{
+    font-style: normal;
+}
+#three{
+    font-style: italic;
+} */
+
+/* TEXT TRANSFORMATION */
+/* hello dear =lowercase*/
+/* HELLO DEAR =uppercase*/
+/* Hello Dear=captilize */
+/* h1{
+    text-transform: uppercase;
+}
+p{
+    text-transform: lowercase;
+}
+h2{
+    text-transform: capitalize;
+} */
+
+
+/* TEXT DECORATION */
+/* #Hello{
+    text-decoration: underline;
+}
+#ONE{
+        text-decoration: line-through;
+}
+#TWO{
+    text-decoration: overline;
+}
+#THREE{
+    text-decoration:underline;
+}
+#FOUR{
+    text-decoration:double;
+} */
+
+/* LINE HEIGHT/LEADING */
+/* p{
+    line-height: 30px;
+} */
+
+/* LATTER WORD SPACING */
+/* h1{
+    word-spacing: 10px;
+    letter-spacing: px;
+}
+h2{
+    letter-spacing: 20px;
+} */
+
+/* TEXT ALIGNMENT */
+/* h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+} */
+
+/* VERTICAL ALIGNMENT */
+/* img{
+    vertical-align: middle;
+}
+h1{
+    vertical-align: bottom;
+} */
+
+/* TEXT INDENTIGN */
+/* h1{
+    text-indent: 50px;
+}
+p{
+    text-indent: 234px;
+} */
+/* TEXT SHADOW */
+/* p{
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px black;
+} */
+
+/* FIRSTLATTER ,LINE */
+/* P::first-letter{
+color: red;
+} p::first-line{
+ background-color: red;
+ color: blue;
+}
+/* STYLING LINK */
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+} */
+
+/* RESPONDING TO USER */
+/* :hover */
+/* input.bott:hover{
+    background-color: rgb(17, 255, 0);
+ /* active */
+/* }
+input.bott:active{
+    background-color:red; */
+
+/* input.bott:focus{
+  background-color: red;
+}
+input.textBox:focus{
+    background-color: blue;
+} */
+
+
+/* attributes selector */
+/* Existance */
+/* h1[test]{
+    color: red;
+}
+h1[name]{
+    color: aqua;
+} */
+/* equality */
+ /* h1[name="hello"]{
+    color: red;
+ }
+ p[page="para"]{
+    color: blue;
+ }
+ h2[own="add"]{
+    color: ;
+ }
+ h1[name="hello"]{
+    color: blue;
+} */
+/* SPACE */
+/* h1[name~="hello"]{
+    color: red;
+}
+h2[own~="add"]{
+    color: blue;
+} */
+/* PREFIX */
+/* h1[name^="hello"]{
+    color: red;
+}
+h2[own^="add"]{
+    color: green;
+}
+p[page^="para"]{
+    color: blue;
+} */
+/* SUBSTRING */
+/* h1[name*="hello"]{
+    color: red;
+}
+h2[own*="add"]{
+    color: aqua;
+} */
+/* SUFFIX */
+body{
+    background-color: darkslategray;
+}
+h1[name$="hello"]{
+    color: aqua;
+}
+a[href$="www.google.com"]{
+    color: red;
+}
+p[page$="para"]{
+    color: blue;
+    font-size: 50px;
+}
+h2[own$="add"]{
+    background-color: blue;
+}
+h1[name$="bye"]{
+    color: red;
+}
+h1[test]{
+    color: yellow;
+}
